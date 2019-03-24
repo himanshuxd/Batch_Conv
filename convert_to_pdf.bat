@@ -1,0 +1,6 @@
+for %%i in (*.mobi) do ebook-convert "%%~ni.mobi" "%%~ni.pdf"
+for %%i in (*.epub) do ebook-convert "%%~ni.epub" "%%~ni.pdf"
+for %%i in (*.djvu) do ebook-convert "%%~ni.djvu" "%%~ni.pdf"
+for %%i in (*.chm) do ebook-convert "%%~ni.chm" "%%~ni.pdf"
+for %%i in (*.lit) do ebook-convert "%%~ni.lit" "%%~ni.pdf"
+for %%i in (*.azw3) do ebook-convert "%%~ni.azw3" "%%~ni.pdf"
